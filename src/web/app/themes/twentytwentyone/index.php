@@ -23,7 +23,7 @@ get_header(); ?>
 <?php endif; ?>
 
 <?php
-if ( have_posts() ) {
+if ( have_posts() ) {}
 
 	// Load posts loop.
 	while ( have_posts() ) {
